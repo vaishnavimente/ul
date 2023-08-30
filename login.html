@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Validated Login Form</title>
+	<link rel="stylesheet" href="login.css">
+</head>
+<body>
+	<style>
+        body {
+          background-image: url('images/logslogo.webp');
+          background-size: 1550px 850px;
+          background-repeat: no-repeat;
+        }
+        </style>
+        
+		
+	<div class="container">
+		<h1 class="label">User Login</h1>
+		<form class="login_form" action="sam.html" method="post" name="form" onsubmit="return validated()">
+			<div class="font">Email or Phone</div>
+			<input autocomplete="off" type="text" name="email">
+			<div class="font font2">Password</div>
+			<input type="password" name="password">
+			<button type="submit"><a href="home.html" style="color: white;">Login</a></button>
+		</form>
+	</div>	
+	<script src="login.js"></script>
+</body>
+</html>
